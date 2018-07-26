@@ -9,9 +9,9 @@ class Scraper
 #scraper has no attributes -it is purely functional
 #this method just responsibile for parsing the HTML page
   def get_page
-    doc = Nokogiri::HTML(open("https://www.startupgrind.com/events/"))
+    doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
     binding.pry
-    #http://learn-co-curriculum.github.io/site-for-scraping/courses
+    #
    end
 
 #this method  operates on the HTML page (which is the return value of the .get_page method)
