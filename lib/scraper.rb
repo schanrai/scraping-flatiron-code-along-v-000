@@ -10,7 +10,7 @@ class Scraper
 #this method just responsibile for parsing the HTML page
   def get_page
     doc = Nokogiri::HTML(open("https://www.startupgrind.com/events/"))
-
+    binding.pry
     #http://learn-co-curriculum.github.io/site-for-scraping/courses
    end
 
